@@ -45,7 +45,7 @@ array.slice is a method in JavaScript that returns a shallow copy of a portion o
 Here's an example:
 
 ```js
-const fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
+const fruits = ["apple", "banana", "cherry", "date", "elderberry"];
 
 const slicedFruits = fruits.slice(1, 4); // copies elements 1, 2, and 3 (but not 4) into a new array
 
@@ -67,7 +67,7 @@ npm i nanoid
 ```
 
 ```js
-import { nanoid } from 'nanoid';
+import { nanoid } from "nanoid";
 
 const id = nanoid(); // Generates a 21-character random ID
 
